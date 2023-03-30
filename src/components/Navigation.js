@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
-import { FaPlay, FaDrumSteelpan } from 'react-icons/fa'
+import { FaPlay } from 'react-icons/fa'
 
 export default function Navigation() {
     const [nav, setNav] = useState(false)
