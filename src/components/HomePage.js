@@ -13,7 +13,7 @@ const HomePage = () => {
       <header className="py-6">
         <div className="flex justify-center items-center text-2xl text-purple-500 font-bold">
           <FaHeadphones className="mr-2" />
-          Streamify
+          PlayMe
         </div>
       </header>
 
@@ -36,7 +36,7 @@ const HomePage = () => {
               className="w-full text-gray-600 placeholder-gray-400 focus:outline-none"
             />
           </div>
-          <button className="bg-purple-500 hover:bg-purple-600 text-white rounded-full px-8 py-2 font-semibold">
+          <button className="bg-purple-500 hover:bg-purple-600 hover:text-black text-white rounded-full px-8 py-2 font-semibold">
             Start Free Trial
           </button>
         </div>
