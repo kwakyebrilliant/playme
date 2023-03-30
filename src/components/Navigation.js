@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
-import { FaUsb } from 'react-icons/fa'
+import { FaPlay, FaDrumSteelpan } from 'react-icons/fa'
 
 export default function Navigation() {
     const [nav, setNav] = useState(false)
@@ -12,10 +12,10 @@ export default function Navigation() {
     const handleClose =()=> setNav(!nav)
     return (
 
-        <div className='w-screen h-[70px] z-10 bg-zinc-900 fixed drop-shadow-lg'>
+        <div className='w-screen h-[70px] z-10 bg-green-600 fixed drop-shadow-lg'>
       <div className='px-2 flex justify-between items-center w-full h-full'>
         <div className='flex items-center'>
-        <FaUsb className=' text-blue-500 lg:w-[35px] lg:h-[35px]' />
+        <FaPlay className=' text-black lg:w-[35px] lg:h-[35px]' />
           <h1 className='text-3xl font-bold text-white mr-4 sm:text-4xl'>PLAYME.</h1>
           <ul className='hidden text-white md:flex'>
           <li><Link to="/">Home</Link></li>
@@ -24,7 +24,7 @@ export default function Navigation() {
         <div className='hidden md:flex pr-4'>
          
             <a
-            className="text-center cursor-pointer items-center px-8 py-2 mx-2 text-white bg-blue-600 border border-blue-600 rounded hover:bg-transparent hover:text-blue-600 active:text-blue-500 focus:outline-none focus:ring"
+            className="text-center cursor-pointer items-center px-8 py-2 mx-2 text-white bg-black border border-black rounded hover:bg-transparent hover:text-black active:text-black focus:outline-none focus:ring"
             type="submit"
             href='/summary'
             >
@@ -47,7 +47,7 @@ export default function Navigation() {
         <div className='my-4'>
         
             <a
-            className="text-center cursor-pointer items-center px-8 py-2 mx-2 text-white bg-blue-600 border border-blue-600 rounded hover:bg-transparent hover:text-blue-600 active:text-blue-500 focus:outline-none focus:ring"
+            className="text-center cursor-pointer items-center px-8 py-2 mx-2 text-white bg-black border border-black rounded hover:bg-transparent hover:text-black active:text-black focus:outline-none focus:ring"
             href='/summary'
             type="submit"
             >
