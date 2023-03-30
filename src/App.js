@@ -1,10 +1,14 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "./components/HomePage";
 
 function App() {
   return (
-    <div className="w-full">
-      <h1>Playme</h1>
-    </div>
+    <Router>
+      <Routes>
+      <Route path="/" exact element={<HomePage />} />
+      </Routes>
+    </Router>
   );
 }
 
