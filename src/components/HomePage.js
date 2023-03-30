@@ -33,7 +33,7 @@ const HomePage = () => {
             <input
               type="text"
               placeholder="Search for artists, songs, or albums"
-              className="w-full text-gray-600 placeholder-gray-400 focus:outline-none"
+              className="w-full bg-gray-100 text-black placeholder-black focus:outline-none"
             />
           </div>
           <button className="bg-purple-500 hover:bg-purple-600 hover:text-black text-white rounded-full px-8 py-2 font-semibold">
