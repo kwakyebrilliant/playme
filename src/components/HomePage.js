@@ -1,8 +1,13 @@
 import React from 'react'
+import Navigation from './Navigation'
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <div>
+        <Navigation />
+        
+        HomePage
+    </div>
   )
 }
 
