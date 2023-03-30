@@ -5,8 +5,12 @@ const HomePage = () => {
   return (
     <div>
         <Navigation />
+
         
-        HomePage
+        <div className='w-full px-20'>
+            HomePage
+        </div>
+        
     </div>
   )
 }
