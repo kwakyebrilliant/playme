@@ -6,6 +6,7 @@ const HomePage = () => {
     <div>
         <Navigation />
 
+
         
         <div className='w-full px-20'>
             HomePage
