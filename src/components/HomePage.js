@@ -42,7 +42,7 @@ const HomePage = () => {
         </div>
 
         <img
-          src="https://images.unsplash.com/photo-1531908968050-4d8ce6789b9e"
+          src=""
           alt="Music streaming platform"
           className="w-full max-w-2xl rounded-lg shadow-lg"
         />
