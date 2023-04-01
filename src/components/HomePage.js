@@ -40,7 +40,7 @@ const HomePage = () => {
             Start Free Trial
           </button>
         </div>
-
+         
         <img
           src=""
           alt="Music streaming platform"
