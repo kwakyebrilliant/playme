@@ -3,6 +3,8 @@ import Navigation from './Navigation'
 
 import { FaHeadphones, FaSearch } from "react-icons/fa";
 
+import new148 from '../assets/new148.jpg'
+
 const HomePage = () => {
   return (
     <div>
