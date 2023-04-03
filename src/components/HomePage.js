@@ -3,6 +3,7 @@ import Navigation from './Navigation'
 
 import { FaHeadphones, FaSearch } from "react-icons/fa";
 
+
 import new148 from '../assets/new148.jpg'
 
 const HomePage = () => {
@@ -11,7 +12,7 @@ const HomePage = () => {
         <Navigation />
 
 
-        <div className="flex flex-col justify-center items-center min-h-screen bg-gray-100">
+        <div style={{ backgroundImage: `url(${new148})` }} className="flex bg-cover bg-center h-screen flex-col justify-center items-center min-h-screen bg-gray-100">
       <header className="py-6">
         <div className="flex justify-center items-center text-2xl text-purple-500 font-bold">
           <FaHeadphones className="mr-2" />
