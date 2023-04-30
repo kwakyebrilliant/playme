@@ -2,8 +2,6 @@ import React from 'react'
 import Navigation from './Navigation'
 
 
-import new148 from '../assets/new148.jpg'
-
 const HomePage = () => {
   return (
     <div>
