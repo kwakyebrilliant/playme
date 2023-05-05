@@ -7,10 +7,10 @@ function Previous() {
         <Navigation />
 
 
-         {/* continents */}
+         {/* Previous solved worlds */}
          <div className="flex flex-col bg-white m-auto pt-10">
         <h1 className="flex py-5 lg:mx-20 md:mx-10 mx-5 font-bold text-3xl text-gray-800">
-                Continents
+                Previous Solved Words
         </h1>
         <div className="flex overflow-x-scroll pb-10 hide-scroll-bar">
             <div className="flex flex-nowrap lg:ml-200 md:ml-20 ml-10 ">
