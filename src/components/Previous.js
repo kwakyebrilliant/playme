@@ -7,6 +7,20 @@ function Previous() {
         <Navigation />
 
 
+        <div className="flex flex-col bg-white m-auto px-20 pt-28">
+
+            <div>
+                <label className="sr-only" for="word">Word</label>
+                <input
+                className="w-full rounded-lg border-gray-200 shadow-md p-3 text-sm"
+                placeholder="Search any word"
+                type="text"
+                id="word"
+                />
+            </div>
+        </div>
+
+
          {/* Previous solved worlds */}
          <div className="flex flex-col bg-white m-auto pt-10">
         <h1 className="flex py-5 lg:mx-20 md:mx-10 mx-5 font-bold text-3xl text-gray-800">
