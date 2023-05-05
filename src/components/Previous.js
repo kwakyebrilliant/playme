@@ -12,7 +12,7 @@ function Previous() {
             <div>
                 <label className="sr-only" for="word">Word</label>
                 <input
-                className="w-full rounded-lg border border-gray-200 p-3 text-sm"
+                className="w-full rounded-lg shadow-md p-3 text-sm"
                 placeholder="Search any word"
                 type="text"
                 id="word"
