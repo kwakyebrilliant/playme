@@ -19,6 +19,8 @@ export default function Navigation() {
           <h1 className='text-3xl font-bold text-white mr-4 sm:text-4xl'>PLAYME.</h1>
           <ul className='hidden text-white md:flex'>
           <li><Link to="/">Home</Link></li>
+          <li><Link to="#">Previous</Link></li>
+          <li><Link to="#">Top Earners</Link></li>
           </ul>
         </div>
         <div className='hidden md:flex pr-4'>
@@ -29,7 +31,7 @@ export default function Navigation() {
             href='/summary'
             >
             <span className="text-sm font-medium">
-            Get Started
+            Start Game
             </span>
             </a>
     
@@ -52,7 +54,7 @@ export default function Navigation() {
             type="submit"
             >
             <span className="text-sm font-medium">
-            Get Started
+            Start Game
             </span>
             </a>
         </div>
