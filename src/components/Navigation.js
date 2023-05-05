@@ -28,7 +28,7 @@ export default function Navigation() {
             <a
             className="text-center cursor-pointer items-center px-8 py-2 mx-2 text-black bg-white border border-white rounded hover:bg-transparent hover:text-green-600 active:text-white focus:outline-none focus:ring"
             type="submit"
-            href='/summary'
+            href='/'
             >
             <span className="text-sm font-medium">
             Start Game
@@ -52,7 +52,7 @@ export default function Navigation() {
         
             <a
             className="text-center cursor-pointer items-center px-8 py-2 mx-2 text-white bg-black border border-black rounded hover:bg-transparent hover:text-green-700 active:text-black focus:outline-none focus:ring"
-            href='/summary'
+            href='/'
             type="submit"
             >
             <span className="text-sm font-medium">
