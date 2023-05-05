@@ -7,12 +7,12 @@ function Previous() {
         <Navigation />
 
 
-        <div className="flex flex-col bg-white m-auto px-20 pt-28">
+        <div className="flex flex-col bg-white m-auto px-20 pt-36">
 
             <div>
                 <label className="sr-only" for="word">Word</label>
                 <input
-                className="w-full rounded-lg border-gray-200 shadow-md p-3 text-sm"
+                className="w-full rounded-lg border border-gray-200 p-3 text-sm"
                 placeholder="Search any word"
                 type="text"
                 id="word"
