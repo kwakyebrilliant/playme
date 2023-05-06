@@ -20,6 +20,13 @@ function Earners() {
             </div>
         </div>
 
+        {/* Top 3 Earners */}
+        <div className="flex flex-col bg-white m-auto pt-10">
+        <h1 className="flex py-5 lg:mx-20 md:mx-10 mx-5 font-bold text-3xl text-gray-800">
+                Top 3
+        </h1>
+        </div>
+
 
        <h1>Earners</h1> 
     </div>
