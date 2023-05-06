@@ -2,7 +2,7 @@
 import React from 'react'
 import Navigation from './Navigation'
 
-import { FaTrophy } from 'react-icons/fa'
+import { FaTrophy, FaPeopleCarry } from 'react-icons/fa'
 
 function Earners() {
   return (
@@ -10,7 +10,7 @@ function Earners() {
         <Navigation />
 
 
-        <div className="flex flex-col bg-white m-auto px-20 pt-36">
+        <div className="flex flex-col bg-white m-auto px-10 pt-36">
 
             <div>
                 <label className="sr-only" for="user">User</label>
@@ -25,7 +25,7 @@ function Earners() {
 
         {/* Top 3 Earners */}
         <div className="flex flex-col bg-white m-auto pt-10">
-        <h1 className="flex py-5 lg:mx-20 md:mx-10 mx-5 font-bold text-3xl text-gray-800">
+        <h1 className="flex py-5 lg:mx-10 md:mx-10 mx-5 font-bold text-3xl text-gray-800">
         <FaTrophy className=' text-yellow-600 lg:w-[35px] lg:h-[35px] mx-2' />
                 Top 3
         </h1>
@@ -140,12 +140,14 @@ function Earners() {
         </div>
 
 
-        {/* Top 3 Earners */}
+        {/* Leadership board */}
         <div className="flex flex-col bg-white m-auto pt-10">
-        <h1 className="flex py-5 lg:mx-20 md:mx-10 mx-5 font-bold text-3xl text-gray-800">
-        <FaTrophy className=' text-yellow-600 lg:w-[35px] lg:h-[35px] mx-2' />
+        <h1 className="flex py-5 lg:mx-10 md:mx-10 mx-5 font-bold text-3xl text-gray-800">
+        <FaPeopleCarry className=' text-yellow-600 lg:w-[35px] lg:h-[35px] mx-2' />
                 Leadership Board
         </h1>
+
+        
 
         </div>
 
