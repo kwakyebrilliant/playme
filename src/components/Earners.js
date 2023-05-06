@@ -3,6 +3,7 @@ import React from 'react'
 import Navigation from './Navigation'
 
 import { FaTrophy, FaPeopleCarry } from 'react-icons/fa'
+import Footer from './Footer'
 
 function Earners() {
   return (
@@ -195,6 +196,9 @@ function Earners() {
 
 
         </div>
+
+        {/* Footer */}
+        <Footer />
 
 
     </div>
