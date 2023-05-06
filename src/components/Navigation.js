@@ -20,7 +20,7 @@ export default function Navigation() {
           <ul className='hidden text-white md:flex'>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/previous">Previous</Link></li>
-          <li><Link to="#">Top Earners</Link></li>
+          <li><Link to="earners">Top Earners</Link></li>
           </ul>
         </div>
         <div className='hidden md:flex pr-4'>
@@ -46,7 +46,7 @@ export default function Navigation() {
       <ul className={!nav ? 'hidden' : 'absolute bg-zinc-200 w-full px-8'}>
         <li className='border-b-2 border-zinc-300 w-full'><Link to="/" onClick={handleClose}>Home</Link></li>
         <li className='border-b-2 border-zinc-300 w-full'><Link to="/previous" onClick={handleClose}>Previous</Link></li>
-        <li className='border-b-2 border-zinc-300 w-full'><Link to="#" onClick={handleClose}>Top Earners</Link></li>
+        <li className='border-b-2 border-zinc-300 w-full'><Link to="/earners" onClick={handleClose}>Top Earners</Link></li>
 
         <div className='my-4'>
         
