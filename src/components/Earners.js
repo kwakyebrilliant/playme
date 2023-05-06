@@ -19,7 +19,6 @@ function Earners() {
                 className="w-full rounded-lg shadow-md p-3 text-sm"
                 placeholder="Search user"
                 type="text"
-                id="user"
                 />
             </div>
         </div>
