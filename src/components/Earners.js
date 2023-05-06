@@ -166,7 +166,7 @@ function Earners() {
             </thead>
 
             <tbody className="divide-y divide-gray-200">
-            <tr>
+            <tr style={{height: 70}}>
                 <td className="whitespace-nowrap px-4 py-2 font-medium text-center text-gray-900">
                 #1
                 </td>
@@ -174,7 +174,7 @@ function Earners() {
                 <td className="whitespace-nowrap px-4 py-2 text-center text-gray-700">Web Developer</td>
             </tr>
 
-            <tr>
+            <tr style={{height: 70}}>
                 <td className="whitespace-nowrap px-4 py-2 text-center font-medium text-gray-900">
                 #2
                 </td>
@@ -182,7 +182,7 @@ function Earners() {
                 <td className="whitespace-nowrap px-4 py-2 text-center text-gray-700">Web Designer</td>
             </tr>
 
-            <tr>
+            <tr style={{height: 70}}>
                 <td className="whitespace-nowrap px-4 py-2 text-center font-medium text-gray-900">
                 #3
                 </td>
