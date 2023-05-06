@@ -183,11 +183,11 @@ function Previous() {
             <div className='shadow-md text-center lg:mx-0 lg:text-left'>
                 
 
-                <div className='flex p-10'>
+                <div className='relative p-10 grid grid-cols-1 lg:grid-cols-4 gap-y-8'>
                     
               
                     <span
-                    className="inline-flex items-center justify-center rounded-full bg-black px-2.5 py-0.5 text-white"
+                    className="inline-flex items-center justify-center rounded-full bg-black px-2.5 mx-2 py-0.5 text-white"
                     >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -208,9 +208,160 @@ function Previous() {
                     </span>
 
 
+                    <span
+                    className="inline-flex items-center justify-center rounded-full bg-black px-2.5 mx-2 py-0.5 text-white"
+                    >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        className="-ms-1 me-1.5 h-4 w-4"
+                    >
+                        <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                    </svg>
+
+                    <p className="whitespace-nowrap text-sm">Success</p>
+                    </span>
+
+
+                    <span
+                    className="inline-flex items-center justify-center rounded-full bg-black px-2.5 mx-2 py-0.5 text-white"
+                    >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        className="-ms-1 me-1.5 h-4 w-4"
+                    >
+                        <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                    </svg>
+
+                    <p className="whitespace-nowrap text-sm">Paid</p>
+                    </span>
+
+
+                    <span
+                    className="inline-flex items-center justify-center rounded-full bg-black px-2.5 mx-2 py-0.5 text-white"
+                    >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        className="-ms-1 me-1.5 h-4 w-4"
+                    >
+                        <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                    </svg>
+
+                    <p className="whitespace-nowrap text-sm">Newcastle</p>
+                    </span>
 
 
 
+
+                    <span
+                    className="inline-flex items-center justify-center rounded-full bg-black px-2.5 mx-2 py-0.5 text-white"
+                    >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        className="-ms-1 me-1.5 h-4 w-4"
+                    >
+                        <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                    </svg>
+
+                    <p className="whitespace-nowrap text-sm">Paid</p>
+                    </span>
+
+
+                    <span
+                    className="inline-flex items-center justify-center rounded-full bg-black px-2.5 mx-2 py-0.5 text-white"
+                    >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        className="-ms-1 me-1.5 h-4 w-4"
+                    >
+                        <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                    </svg>
+
+                    <p className="whitespace-nowrap text-sm">Inheritance</p>
+                    </span>
+
+
+                    <span
+                    className="inline-flex items-center justify-center rounded-full bg-black px-2.5 mx-2 py-0.5 text-white"
+                    >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        className="-ms-1 me-1.5 h-4 w-4"
+                    >
+                        <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                    </svg>
+
+                    <p className="whitespace-nowrap text-sm">Paid</p>
+                    </span>
+
+
+                    <span
+                    className="inline-flex items-center justify-center rounded-full bg-black px-2.5 mx-2 py-0.5 text-white"
+                    >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        className="-ms-1 me-1.5 h-4 w-4"
+                    >
+                        <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                    </svg>
+
+                    <p className="whitespace-nowrap text-sm">Experimetal</p>
+                    </span>
 
 
                 </div>            
