@@ -1,8 +1,14 @@
 import React from 'react'
+import Navigation from './Navigation'
 
 function Earners() {
   return (
-    <div>Earners</div>
+    <div>
+        <Navigation />
+
+
+       <h1>Earners</h1> 
+    </div>
   )
 }
 
