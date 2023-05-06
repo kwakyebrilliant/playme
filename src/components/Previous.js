@@ -26,7 +26,7 @@ function Previous() {
         <h1 className="flex py-5 lg:mx-20 md:mx-10 mx-5 font-bold text-3xl text-gray-800">
                 Previous Solved Words
         </h1>
-        <div className="flex overflow-x-scroll pb-10 hide-scroll-bar">
+        <div className="flex overflow-x-scroll hide-scroll-bar">
             <div className="flex flex-nowrap lg:ml-200 md:ml-20 ml-10 ">
 
             <div className="inline-block px-3">
@@ -167,9 +167,18 @@ function Previous() {
     </div>
 
 
-    <div className='w-full h-screen pt-20 px-20 bg-white flex flex-col justify-between'>
-        <div className='grid md:grid-cols-2 max-w-[1240px] m-auto'>
-            <div className='flex flex-col justify-center md:items-start w-full px-2 py-8'>
+
+    {/* <div className='w-full pt-12 h-screen px-20 bg-white flex flex-col justify-between'>
+    <div className='grid md:grid-cols-2 max-w-[1240px] m-auto'>
+        <h1>hi</h1>
+    </div>
+    </div> */}
+
+
+    <div className='w-full h-screen px-20 bg-white flex flex-col justify-between pt-16'>
+        <div className='grid md:grid-cols-2 max-w-[1240px]'>
+
+            <div className='flex flex-col justify-center md:items-start w-full px-2'>
                 <h1 className='py-3 text-4xl md:text-6xl font-bold'>Climate <strong className="font-extrabold text-green-600 sm:block">Actions</strong></h1>
                 <p className='max-w-lg sm:leading-relaxed sm:text-xl'>Champion, solicit and undertake </p>
                 <p className='max-w-lg sm:leading-relaxed sm:text-xl'>actions to help safeguard our planet.</p>
