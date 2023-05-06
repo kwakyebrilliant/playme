@@ -18,7 +18,6 @@ function Previous() {
                 className="w-full rounded-lg shadow-md p-3 text-sm"
                 placeholder="Search any word"
                 type="text"
-                id="word"
                 />
             </div>
         </div>
