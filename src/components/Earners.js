@@ -153,13 +153,13 @@ function Earners() {
         <table className="min-w-full divide-y-2 divide-gray-200 bg-white text-sm">
             <thead className="ltr:text-left rtl:text-right">
             <tr>
-                <th className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
+                <th className="whitespace-nowrap px-4 py-2 text-xl font-medium text-gray-900">
                 Number
                 </th>
-                <th className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
+                <th className="whitespace-nowrap px-4 py-2 text-xl font-medium text-gray-900">
                 Address
                 </th>
-                <th className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
+                <th className="whitespace-nowrap px-4 py-2 text-xl font-medium text-gray-900">
                 Amount
                 </th>
             </tr>
@@ -167,27 +167,27 @@ function Earners() {
 
             <tbody className="divide-y divide-gray-200">
             <tr style={{height: 70}}>
-                <td className="whitespace-nowrap px-4 py-2 font-medium text-center text-gray-900">
+                <td className="whitespace-nowrap px-4 py-2 text-lg font-medium text-center text-gray-900">
                 #1
                 </td>
-                <td className="whitespace-nowrap px-4 py-2 text-center text-gray-700">24/05/1995</td>
-                <td className="whitespace-nowrap px-4 py-2 text-center text-gray-700">Web Developer</td>
+                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
+                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">Web Developer</td>
             </tr>
 
             <tr style={{height: 70}}>
-                <td className="whitespace-nowrap px-4 py-2 text-center font-medium text-gray-900">
+                <td className="whitespace-nowrap px-4 py-2 text-lg text-center font-medium text-gray-900">
                 #2
                 </td>
-                <td className="whitespace-nowrap px-4 py-2 text-center text-gray-700">04/11/1980</td>
-                <td className="whitespace-nowrap px-4 py-2 text-center text-gray-700">Web Designer</td>
+                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">04/11/1980</td>
+                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">Web Designer</td>
             </tr>
 
             <tr style={{height: 70}}>
-                <td className="whitespace-nowrap px-4 py-2 text-center font-medium text-gray-900">
+                <td className="whitespace-nowrap px-4 py-2 text-lg text-center font-medium text-gray-900">
                 #3
                 </td>
-                <td className="whitespace-nowrap px-4 py-2 text-center text-gray-700">24/05/1995</td>
-                <td className="whitespace-nowrap px-4 py-2 text-center text-gray-700">Singer</td>
+                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
+                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">Singer</td>
             </tr>
             </tbody>
         </table>
