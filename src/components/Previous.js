@@ -175,7 +175,7 @@ function Previous() {
 
             <div className='flex flex-col justify-center md:items-start w-full px-2'>
                 
-                <img className='w-full justify-center' src={person} alt="/" />
+                <img className='w-full justify-center' src={person} alt="Person" />
 
 
             </div>
