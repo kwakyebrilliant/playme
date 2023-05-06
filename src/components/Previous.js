@@ -183,7 +183,7 @@ function Previous() {
             <div className='shadow-md text-center lg:mx-0 lg:text-left'>
                 
 
-                <div className='flex justify-center'>
+                <div className='flex p-10'>
                     <h1>hi</h1>
                 </div>            
 
