@@ -78,8 +78,12 @@ const HomePage = () => {
 </section>
 
         
-        <div classNameName='w-full px-20'>
-            HomePage
+        <div className='border'>
+
+        <h1 className="flex py-5 lg:mx-20 md:mx-10 mx-5 font-bold text-8xl text-gray-800">
+                How we work,
+        </h1>
+            
         </div>
 
 
