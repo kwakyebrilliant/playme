@@ -29,7 +29,7 @@ function Earners() {
                 Top 3
         </h1>
 
-        <div className='relative px-20 grid grid-cols-1 lg:grid-cols-3 gap-x-8 gap-y-16'>
+        <div className='grid grid-cols-1 lg:grid-cols-3 gap-x-8 gap-y-16 px-10'>
             <a className="relative flex items-start justify-between rounded-xl border border-gray-100 p-4 shadow-md sm:p-6 lg:p-8" href="#">
             <div className="pt-4 text-gray-500">
            
