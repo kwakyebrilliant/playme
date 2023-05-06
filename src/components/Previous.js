@@ -187,7 +187,7 @@ function Previous() {
                     
               
                     <span
-                    class="inline-flex items-center justify-center rounded-full bg-emerald-100 px-2.5 py-0.5 text-emerald-700"
+                    className="inline-flex items-center justify-center rounded-full bg-black px-2.5 py-0.5 text-white"
                     >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -195,7 +195,7 @@ function Previous() {
                         viewBox="0 0 24 24"
                         stroke-width="1.5"
                         stroke="currentColor"
-                        class="-ms-1 me-1.5 h-4 w-4"
+                        className="-ms-1 me-1.5 h-4 w-4"
                     >
                         <path
                         stroke-linecap="round"
@@ -204,7 +204,7 @@ function Previous() {
                         />
                     </svg>
 
-                    <p class="whitespace-nowrap text-sm">Paid</p>
+                    <p className="whitespace-nowrap text-sm">Paid</p>
                     </span>
 
 
