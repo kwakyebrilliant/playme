@@ -2,6 +2,7 @@ import React from 'react'
 import Navigation from './Navigation'
 
 import person from '../assets/person.jpg';
+import Footer from './Footer';
 
 function Previous() {
   return (
@@ -375,6 +376,9 @@ function Previous() {
 
 
     </div>
+
+    {/* Footer */}
+    <Footer />
         
     </div>
   )
