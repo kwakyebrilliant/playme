@@ -180,11 +180,13 @@ function Previous() {
 
             <div className='flex flex-col justify-center md:items-start w-full px-2'>
                 
+                {/* <img className='w-full justify-center' src={cover} alt="/" /> */}
 
+                
             </div>
             
             <div className='mx-auto max-w-lg text-center lg:mx-0 lg:text-left'>
-                {/* <img className='w-full justify-center' src={cover} alt="/" /> */}
+                
 
                 <h1 className='py-3 text-4xl md:text-6xl font-bold'>Climate <strong className="font-extrabold text-green-600 sm:block">Actions</strong></h1>
                 <p className='max-w-lg sm:leading-relaxed sm:text-xl'>Champion, solicit and undertake </p>
@@ -222,7 +224,7 @@ function Previous() {
                 </a>
                 </div>
 
-                
+
             </div>
            
 
