@@ -32,12 +32,40 @@ const HomePage = () => {
           WELCOME TO PLAYME
         </h1>
 
-        <p className="mt-4 leading-relaxed text-gray-500">
+        <p className="my-4 leading-relaxed text-gray-500">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nam
           dolorum aliquam, quibusdam aperiam voluptatum.
         </p>
 
-        
+        <h1 className='py-3 text-4xl md:text-6xl font-bold'>Climate <strong className="font-extrabold text-blue-600 sm:block">Actions</strong></h1>
+                <p className='max-w-lg sm:leading-relaxed sm:text-xl'>Champion, solicit and undertake </p>
+                <p className='max-w-lg sm:leading-relaxed sm:text-xl'>actions to help safeguard our planet.</p>
+                <div className="flex flex-wrap gap-4 mt-8 text-center">
+                <a className="group relative inline-flex items-center overflow-hidden rounded bg-blue-600 px-8 py-3 text-white focus:outline-none focus:ring active:bg-blue-600" href="#">
+                <span className="absolute left-0 -translate-x-full transition-transform group-hover:translate-x-4">
+                    <svg
+                    className="h-5 w-5"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M17 8l4 4m0 0l-4 4m4-4H3"
+                    />
+                    </svg>
+                </span>
+
+                <span className="text-sm font-medium transition-all group-hover:ml-4">
+                    Get Started
+                </span>
+                </a>
+
+             
+                </div>
        
       </div>
     </main>
