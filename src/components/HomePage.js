@@ -34,13 +34,14 @@ const HomePage = () => {
         </h1>
 
         <p className="my-4 leading-relaxed text-gray-500">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nam
-          dolorum aliquam, quibusdam aperiam voluptatum.
+          The best part of a work is getting rewarded for your efforts.
+          Join this new platform to solve words and get rewarded. All
+          activities on the platform run on blockchain
         </p>
 
-        <h1 className='py-3 text-4xl md:text-6xl font-bold'>Climate <strong className="font-extrabold text-blue-600 sm:block">Actions</strong></h1>
-                <p className='max-w-lg sm:leading-relaxed sm:text-xl'>Champion, solicit and undertake </p>
-                <p className='max-w-lg sm:leading-relaxed sm:text-xl'>actions to help safeguard our planet.</p>
+        <h1 className='py-3 text-4xl md:text-6xl font-bold'>Word <strong className="font-extrabold text-blue-600 sm:block">Scribble</strong></h1>
+                <p className='max-w-lg sm:leading-relaxed sm:text-xl'>Stake to solve words others have placed </p>
+                <p className='max-w-lg sm:leading-relaxed sm:text-xl'>reward on and get rewarded or lose your stake.</p>
                 <div className="flex flex-wrap gap-4 mt-8 text-center">
                 <a className="group relative inline-flex items-center overflow-hidden rounded bg-blue-600 px-8 py-3 text-white focus:outline-none focus:ring active:bg-blue-600" href="#">
                 <span className="absolute left-0 -translate-x-full transition-transform group-hover:translate-x-4">
