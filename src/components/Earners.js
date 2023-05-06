@@ -28,6 +28,12 @@ function Earners() {
         <FaTrophy className=' text-yellow-600 lg:w-[35px] lg:h-[35px] mx-2' />
                 Top 3
         </h1>
+
+        <div className='relative px-20 grid grid-cols-1 lg:grid-cols-3 gap-x-8 gap-y-16'>
+
+        </div>
+
+
         </div>
 
 
