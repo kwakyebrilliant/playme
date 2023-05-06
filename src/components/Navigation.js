@@ -26,7 +26,7 @@ export default function Navigation() {
         <div className='hidden md:flex pr-4'>
          
             <a
-            className="text-center cursor-pointer items-center px-8 py-2 mx-2 text-black bg-white border border-white rounded hover:bg-transparent hover:text-green-600 active:text-white focus:outline-none focus:ring"
+            className="text-center cursor-pointer items-center px-8 py-2 mx-2 text-black bg-white border border-white rounded hover:bg-transparent hover:text-blue-600 active:text-white focus:outline-none focus:ring"
             type="submit"
             href='/'
             >
@@ -51,7 +51,7 @@ export default function Navigation() {
         <div className='my-4'>
         
             <a
-            className="text-center cursor-pointer items-center px-8 py-2 mx-2 text-white bg-black border border-black rounded hover:bg-transparent hover:text-green-700 active:text-black focus:outline-none focus:ring"
+            className="text-center cursor-pointer items-center px-8 py-2 mx-2 text-white bg-black border border-black rounded hover:bg-transparent hover:text-blue-700 active:text-black focus:outline-none focus:ring"
             href='/'
             type="submit"
             >
