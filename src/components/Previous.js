@@ -180,10 +180,12 @@ function Previous() {
 
             </div>
             
-            <div className='mx-auto max-w-lg justify-center shadow-md text-center lg:mx-0 lg:text-left'>
+            <div className='shadow-md text-center lg:mx-0 lg:text-left'>
                 
 
-                
+                <div className='flex justify-center'>
+                    <h1>hi</h1>
+                </div>            
 
 
             </div>
