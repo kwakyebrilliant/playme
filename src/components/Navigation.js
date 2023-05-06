@@ -20,7 +20,7 @@ export default function Navigation() {
           <ul className='hidden text-white md:flex'>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/previous">Previous</Link></li>
-          <li><Link to="earners">Top Earners</Link></li>
+          <li><Link to="/earners">Top Earners</Link></li>
           </ul>
         </div>
         <div className='hidden md:flex pr-4'>
