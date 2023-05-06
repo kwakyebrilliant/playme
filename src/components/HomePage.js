@@ -2,7 +2,6 @@
 import React from 'react'
 import Navigation from './Navigation'
 import Footer from './Footer'
-import { FaFileWord } from 'react-icons/fa'
 
 const HomePage = () => {
   return (
@@ -27,19 +26,9 @@ const HomePage = () => {
       className="flex items-center justify-center px-8 py-8 sm:px-12 lg:col-span-7 lg:px-16 lg:py-12 xl:col-span-6"
     >
       <div className="max-w-xl lg:max-w-3xl">
-      <FaFileWord className=' text-blue-600 lg:w-[35px] lg:h-[35px]' />
 
-        <h1 className="text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl">
-          WELCOME TO PLAYME
-        </h1>
 
-        <p className="my-4 leading-relaxed text-gray-500">
-          The best part of a work is getting rewarded for your efforts.
-          Join this new platform to solve words and get rewarded. All
-          activities on the platform run on blockchain
-        </p>
-
-        <h1 className='py-3 text-4xl md:text-6xl font-bold'>Word <strong className="font-extrabold text-blue-600 sm:block">Scribble</strong></h1>
+      <h1 className='py-3 text-4xl md:text-6xl font-bold'>Word <strong className="font-extrabold text-blue-600 sm:block">Scribble</strong></h1>
                 <p className='max-w-lg sm:leading-relaxed sm:text-xl'>Stake to solve words others have placed </p>
                 <p className='max-w-lg sm:leading-relaxed sm:text-xl'>reward on and get rewarded or lose your stake.</p>
                 <div className="flex flex-wrap gap-4 mt-8 text-center">
@@ -68,6 +57,20 @@ const HomePage = () => {
 
              
                 </div>
+
+      
+
+        <h1 className="text-2xl pt-10 font-bold text-gray-900 sm:text-3xl md:text-4xl">
+          WELCOME TO PLAYME
+        </h1>
+
+        <p className="my-4 leading-relaxed text-gray-500">
+          The best part of a work is getting rewarded for your efforts.
+          Join this new platform to solve words and get rewarded. All
+          activities on the platform run on blockchain
+        </p>
+
+        
        
       </div>
     </main>
