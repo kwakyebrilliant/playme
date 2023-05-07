@@ -1,6 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import Navigation from './Navigation'
+
+import word from '../assets/word.jpg';
+
 import Footer from './Footer'
 
 const HomePage = () => {
@@ -102,7 +105,7 @@ const HomePage = () => {
           <div className="hidden sm:block sm:basis-56">
             <img
               alt="Guitar"
-              src="https://images.unsplash.com/photo-1609557927087-f9cf8e88de18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+              src={word}
               className="aspect-square h-full w-full object-cover"
             />
           </div>
@@ -127,6 +130,96 @@ const HomePage = () => {
             <div className="sm:flex sm:items-end sm:justify-end">
               <a className="block bg-blue-300 px-5 py-3 text-center text-xs font-bold uppercase text-gray-900 transition hover:bg-blue-400">
                 #1
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article className="flex mt-20 lg:w-[900px] m-auto bg-white transition hover:shadow-xl">
+          <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
+            <time
+              datetime="2022-10-10"
+              className="flex items-center justify-between gap-4 text-xs font-bold uppercase text-gray-900"
+            >
+              <span>Solve</span>
+              <span className="w-px flex-1 bg-gray-900/10"></span>
+              <span>Words</span>
+            </time>
+          </div>
+
+          <div className="hidden sm:block sm:basis-56">
+            <img
+              alt="Guitar"
+              src="https://images.unsplash.com/photo-1609557927087-f9cf8e88de18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+              className="aspect-square h-full w-full object-cover"
+            />
+          </div>
+
+          <div className="flex flex-1 flex-col justify-between">
+            <div className="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
+              <a href="#">
+                <h3 className="font-bold uppercase text-gray-900">
+                  Finding the right guitar for your style - 5 tips
+                </h3>
+              </a>
+
+              <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-700">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                dolores, possimus pariatur animi temporibus nesciunt praesentium dolore
+                sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta,
+                voluptates neque explicabo tempora nisi culpa eius atque dignissimos.
+                Molestias explicabo corporis voluptatem?
+              </p>
+            </div>
+
+            <div className="sm:flex sm:items-end sm:justify-end">
+              <a className="block bg-blue-300 px-5 py-3 text-center text-xs font-bold uppercase text-gray-900 transition hover:bg-blue-400">
+                #2
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article className="flex mt-20 lg:w-[900px] m-auto bg-white transition hover:shadow-xl">
+          <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
+            <time
+              datetime="2022-10-10"
+              className="flex items-center justify-between gap-4 text-xs font-bold uppercase text-gray-900"
+            >
+              <span>Solve</span>
+              <span className="w-px flex-1 bg-gray-900/10"></span>
+              <span>Words</span>
+            </time>
+          </div>
+
+          <div className="hidden sm:block sm:basis-56">
+            <img
+              alt="Guitar"
+              src="https://images.unsplash.com/photo-1609557927087-f9cf8e88de18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+              className="aspect-square h-full w-full object-cover"
+            />
+          </div>
+
+          <div className="flex flex-1 flex-col justify-between">
+            <div className="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
+              <a href="#">
+                <h3 className="font-bold uppercase text-gray-900">
+                  Finding the right guitar for your style - 5 tips
+                </h3>
+              </a>
+
+              <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-700">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                dolores, possimus pariatur animi temporibus nesciunt praesentium dolore
+                sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta,
+                voluptates neque explicabo tempora nisi culpa eius atque dignissimos.
+                Molestias explicabo corporis voluptatem?
+              </p>
+            </div>
+
+            <div className="sm:flex sm:items-end sm:justify-end">
+              <a className="block bg-blue-300 px-5 py-3 text-center text-xs font-bold uppercase text-gray-900 transition hover:bg-blue-400">
+                #3
               </a>
             </div>
           </div>
