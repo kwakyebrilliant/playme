@@ -203,16 +203,14 @@ const HomePage = () => {
             <div className="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
               <a>
                 <h3 className="font-bold uppercase text-gray-900">
-                  Receive reward for solved word
+                  Receive reward for a solved word
                 </h3>
               </a>
 
               <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-700">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
-                dolores, possimus pariatur animi temporibus nesciunt praesentium dolore
-                sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta,
-                voluptates neque explicabo tempora nisi culpa eius atque dignissimos.
-                Molestias explicabo corporis voluptatem?
+                You will be rewarded once you are able to solve the word in the 30 seconds
+                of time given. When you are not able to solve the word and not exhausted your
+                30 seconds of time, you will still be able to try again till you get it right.
               </p>
             </div>
 
