@@ -116,7 +116,7 @@ const HomePage = () => {
             <div className="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
               <a>
                 <h3 className="font-bold uppercase text-gray-900">
-                  Finding the right guitar for your style - 5 tips
+                  user generate a word
                 </h3>
               </a>
 
@@ -161,7 +161,7 @@ const HomePage = () => {
             <div className="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
               <a>
                 <h3 className="font-bold uppercase text-gray-900">
-                  Finding the right guitar for your style - 5 tips
+                  Solve a user generated word
                 </h3>
               </a>
 
@@ -206,7 +206,7 @@ const HomePage = () => {
             <div className="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
               <a>
                 <h3 className="font-bold uppercase text-gray-900">
-                  Finding the right guitar for your style - 5 tips
+                  Receive reward for solved word
                 </h3>
               </a>
 
