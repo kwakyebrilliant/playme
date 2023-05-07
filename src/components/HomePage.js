@@ -3,6 +3,8 @@ import React from 'react'
 import Navigation from './Navigation'
 
 import word from '../assets/word.jpg';
+import solve from '../assets/solve.jpg';
+import reward from '../assets/reward.jpg';
 
 import Footer from './Footer'
 
@@ -150,7 +152,7 @@ const HomePage = () => {
           <div className="hidden sm:block sm:basis-56">
             <img
               alt="Guitar"
-              src="https://images.unsplash.com/photo-1609557927087-f9cf8e88de18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+              src={solve}
               className="aspect-square h-full w-full object-cover"
             />
           </div>
@@ -195,7 +197,7 @@ const HomePage = () => {
           <div className="hidden sm:block sm:basis-56">
             <img
               alt="Guitar"
-              src="https://images.unsplash.com/photo-1609557927087-f9cf8e88de18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+              src={reward}
               className="aspect-square h-full w-full object-cover"
             />
           </div>
