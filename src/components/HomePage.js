@@ -93,9 +93,9 @@ const HomePage = () => {
               datetime="2022-10-10"
               className="flex items-center justify-between gap-4 text-xs font-bold uppercase text-gray-900"
             >
-              <span>2022</span>
+              <span>Solve</span>
               <span className="w-px flex-1 bg-gray-900/10"></span>
-              <span>Oct 10</span>
+              <span>Words</span>
             </time>
           </div>
 
@@ -125,11 +125,8 @@ const HomePage = () => {
             </div>
 
             <div className="sm:flex sm:items-end sm:justify-end">
-              <a
-                href="#"
-                className="block bg-yellow-300 px-5 py-3 text-center text-xs font-bold uppercase text-gray-900 transition hover:bg-yellow-400"
-              >
-                Read Blog
+              <a className="block bg-blue-300 px-5 py-3 text-center text-xs font-bold uppercase text-gray-900 transition hover:bg-blue-400">
+                #1
               </a>
             </div>
           </div>
