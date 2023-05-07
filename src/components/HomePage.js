@@ -164,11 +164,10 @@ const HomePage = () => {
               </a>
 
               <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-700">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
-                dolores, possimus pariatur animi temporibus nesciunt praesentium dolore
-                sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta,
-                voluptates neque explicabo tempora nisi culpa eius atque dignissimos.
-                Molestias explicabo corporis voluptatem?
+                As a user interested in solving a word, you will be required to make a
+                stake to provide a solution to the word you will like to solve. Please
+                note that you will have 30 seconds to solve a word. A single user can solve
+                a word at a time.
               </p>
             </div>
 
