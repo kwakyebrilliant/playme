@@ -37,7 +37,7 @@ const HomePage = () => {
                 <p className='max-w-lg sm:leading-relaxed sm:text-xl'>Stake to solve words others have placed </p>
                 <p className='max-w-lg sm:leading-relaxed sm:text-xl'>reward on and get rewarded or lose your stake.</p>
                 <div className="flex flex-wrap gap-4 mt-8 text-center">
-                <a className="group relative inline-flex items-center overflow-hidden rounded bg-blue-600 px-8 py-3 text-white focus:outline-none focus:ring active:bg-blue-600" href="#">
+                <a className="group relative inline-flex items-center overflow-hidden rounded bg-blue-600 px-8 py-3 text-white focus:outline-none focus:ring active:bg-blue-600" href="/summary">
                 <span className="absolute left-0 -translate-x-full transition-transform group-hover:translate-x-4">
                     <svg
                     className="h-5 w-5"
