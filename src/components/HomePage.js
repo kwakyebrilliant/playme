@@ -87,7 +87,7 @@ const HomePage = () => {
 
          <div className='px-20 py-20 m-auto'>
 
-                <article className="flex lg:w-[900px] m-auto bg-white transition hover:shadow-xl">
+          <article className="flex lg:w-[900px] m-auto bg-white transition hover:shadow-xl">
           <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
             <time
               datetime="2022-10-10"
