@@ -84,8 +84,12 @@ const HomePage = () => {
                 How we work,
         </h1>
 
-        
-        
+
+         <div className='w-full pt-20 px-20 bg-white flex flex-col justify-between'>
+        <div className='grid md:grid-cols-1 max-w-[1240px] m-auto'>
+            
+          </div>
+          </div>
             
         </div>
 
