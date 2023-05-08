@@ -3,7 +3,7 @@ import DashboardNav from './DashboardNav'
 
 function Summary() {
   return (
-    <div>
+    <div className='bg-gray-100'>
 
         <DashboardNav />
 
