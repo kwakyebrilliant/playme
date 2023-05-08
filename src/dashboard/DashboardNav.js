@@ -37,12 +37,12 @@ function DashboardNav() {
 
     <nav
       aria-label="Site Nav"
-      className="hidden items-center justify-center gap-8 text-sm font-medium lg:flex lg:w-0 lg:flex-1"
+      className="hidden bg-blue-50 rounded mx-80 p-4 items-center justify-center gap-8 text-sm font-medium lg:flex lg:w-0 lg:flex-1"
     >
-      <a className="text-gray-900" href="">Dashboard</a>
-      <a className="text-gray-900" href="">Blog</a>
-      <a className="text-gray-900" href="">Projects</a>
-      <a className="text-gray-900" href="">Contact</a>
+      <a className="text-blue-600" href="">Dashboard</a>
+      <a className="text-blue-600" href="">Words</a>
+      <a className="text-blue-600" href="">Earnings</a>
+      <a className="text-blue-600" href="">History</a>
     </nav>
 
     <div className="hidden items-center gap-4 lg:flex">
@@ -61,9 +61,9 @@ function DashboardNav() {
       className="flex items-center justify-center overflow-x-auto p-4 text-sm font-medium"
     >
       <a className="shrink-0 px-4 text-gray-900" href="">Dashboard</a>
-      <a className="shrink-0 px-4 text-gray-900" href="">Blog</a>
-      <a className="shrink-0 px-4 text-gray-900" href="">Projects</a>
-      <a className="shrink-0 px-4 text-gray-900" href="">Contact</a>
+      <a className="shrink-0 px-4 text-gray-900" href="">Words</a>
+      <a className="shrink-0 px-4 text-gray-900" href="">Earnings</a>
+      <a className="shrink-0 px-4 text-gray-900" href="">History</a>
     </nav>
   </div>
 </header>
