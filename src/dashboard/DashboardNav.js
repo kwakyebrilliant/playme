@@ -2,7 +2,9 @@ import React from 'react'
 
 function DashboardNav() {
   return (
-    <div>DashboardNav</div>
+    <div>
+        DashboardNav
+    </div>
   )
 }
 
