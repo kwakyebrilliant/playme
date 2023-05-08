@@ -39,10 +39,10 @@ function DashboardNav() {
       aria-label="Site Nav"
       className="hidden bg-blue-50 rounded mx-80 p-4 items-center justify-center gap-8 text-sm font-medium lg:flex lg:w-0 lg:flex-1"
     >
-      <a className="text-blue-600" href="">Dashboard</a>
-      <a className="text-blue-600" href="">Words</a>
-      <a className="text-blue-600" href="">Earnings</a>
-      <a className="text-blue-600" href="">History</a>
+      <a className="text-blue-600 p-4 hover:rounded hover:bg-blue-200" href="">Dashboard</a>
+      <a className="text-blue-600 p-4 hover:rounded hover:bg-blue-200" href="">Words</a>
+      <a className="text-blue-600 p-4 hover:rounded hover:bg-blue-200" href="">Earnings</a>
+      <a className="text-blue-600 p-4 hover:rounded hover:bg-blue-200" href="">History</a>
     </nav>
 
     <div className="hidden items-center gap-4 lg:flex">
