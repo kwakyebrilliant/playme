@@ -1,8 +1,15 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react'
+import React, {useState} from 'react'
 import { FaFileWord } from 'react-icons/fa'
 
 function DashboardNav() {
+
+    const [activeItem, setActiveItem] = useState("Summary");
+
+    const handleItemClick = (itemName) => {
+        setActiveItem(itemName);
+      };
+
   return (
     <div>
 
@@ -39,7 +46,7 @@ function DashboardNav() {
       aria-label="Site Nav"
       className="hidden bg-blue-50 rounded mx-80 items-center justify-center gap-8 text-sm font-medium lg:flex lg:w-0 lg:flex-1"
     >
-      <a className="text-blue-600 p-4 hover:rounded hover:bg-blue-200" href="/summary">Dashboard</a>
+      <a className={`text-blue-600 p-4 hover:rounded hover:bg-blue-200 ${activeItem === "Summary" && "font-bold text-white bg-blue-600 rounded hover:bg-blue-600"}`} onClick={() => handleItemClick("Summary")} href="/summary">Dashboard</a>
       <a className="text-blue-600 p-4 hover:rounded hover:bg-blue-200" href="">Words</a>
       <a className="text-blue-600 p-4 hover:rounded hover:bg-blue-200" href="">Earnings</a>
       <a className="text-blue-600 p-4 hover:rounded hover:bg-blue-200" href="">History</a>
