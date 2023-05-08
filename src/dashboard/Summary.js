@@ -1,8 +1,15 @@
 import React from 'react'
+import DashboardNav from './DashboardNav'
 
 function Summary() {
   return (
-    <div>Summary</div>
+    <div>
+
+        <DashboardNav />
+
+
+        <h1>Summary</h1>
+    </div>
   )
 }
 
