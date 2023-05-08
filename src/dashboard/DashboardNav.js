@@ -52,7 +52,9 @@ function DashboardNav() {
         <NavLink to="/word" className={({ isActive }) => (isActive ? activeLink : normalLink)}>
         <a className="p-4 hover:rounded hover:bg-blue-200">Words</a>
         </NavLink>
-      <a className=" p-4 hover:rounded hover:bg-blue-200" href="">Earnings</a>
+        <NavLink to="/earnings" className={({ isActive }) => (isActive ? activeLink : normalLink)}>
+      <a className=" p-4 hover:rounded hover:bg-blue-200">Earnings</a>
+      </NavLink>
       <a className="p-4 hover:rounded hover:bg-blue-200" href="">History</a>
     </nav>
 
@@ -72,8 +74,8 @@ function DashboardNav() {
       className="flex items-center justify-center overflow-x-auto p-4 text-sm font-medium"
     >
       <a className="shrink-0 px-4 text-gray-900" href="/summary">Dashboard</a>
-      <a className="shrink-0 px-4 text-gray-900" href="">Words</a>
-      <a className="shrink-0 px-4 text-gray-900" href="">Earnings</a>
+      <a className="shrink-0 px-4 text-gray-900" href="/word">Words</a>
+      <a className="shrink-0 px-4 text-gray-900" href="/earnings">Earnings</a>
       <a className="shrink-0 px-4 text-gray-900" href="">History</a>
     </nav>
   </div>
