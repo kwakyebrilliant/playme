@@ -1,8 +1,15 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
+
+import { NavLink } from "react-router-dom";
+
 import { FaFileWord } from 'react-icons/fa'
 
 function DashboardNav() {
+
+    const activeLink = "bg-blue-600 p-4 rounded text-white";
+    const normalLink = "";
+
   return (
     <div>
 
@@ -37,12 +44,16 @@ function DashboardNav() {
 
     <nav
       aria-label="Site Nav"
-      className="hidden bg-blue-50 rounded mx-80 items-center justify-center gap-8 text-sm font-medium lg:flex lg:w-0 lg:flex-1"
+      className="hidden bg-blue-50 rounded mx-72 items-center justify-center gap-8 text-sm font-medium lg:flex lg:w-0 lg:flex-1"
     >
-      <a className="text-blue-600 p-4 hover:rounded hover:bg-blue-200" href="/summary">Dashboard</a>
-      <a className="text-blue-600 p-4 hover:rounded hover:bg-blue-200" href="">Words</a>
-      <a className="text-blue-600 p-4 hover:rounded hover:bg-blue-200" href="">Earnings</a>
-      <a className="text-blue-600 p-4 hover:rounded hover:bg-blue-200" href="">History</a>
+      <NavLink to="/summary" className={({ isActive }) => (isActive ? activeLink : normalLink)}>
+        <a className=" p-4 hover:rounded hover:bg-blue-200" >Dashboard</a>
+        </NavLink>
+        <NavLink to="/word" className={({ isActive }) => (isActive ? activeLink : normalLink)}>
+        <a className="p-4 hover:rounded hover:bg-blue-200">Words</a>
+        </NavLink>
+      <a className=" p-4 hover:rounded hover:bg-blue-200" href="">Earnings</a>
+      <a className="p-4 hover:rounded hover:bg-blue-200" href="">History</a>
     </nav>
 
     <div className="hidden items-center gap-4 lg:flex">
