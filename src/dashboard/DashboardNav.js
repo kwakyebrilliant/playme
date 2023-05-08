@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import { FaFileWord } from 'react-icons/fa'
 
@@ -20,7 +21,7 @@ function DashboardNav() {
 
       <form className="mb-0 hidden lg:flex">
         <div className="relative">
-        <FaFileWord className=' text-black lg:w-[35px] lg:h-[35px]'/>
+        <FaFileWord className=' text-blue-600 lg:w-[35px] lg:h-[35px]'/>
         </div>
       </form>
     </div>
