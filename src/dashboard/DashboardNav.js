@@ -47,7 +47,7 @@ function DashboardNav() {
       className="hidden bg-blue-50 rounded mx-80 items-center justify-center gap-8 text-sm font-medium lg:flex lg:w-0 lg:flex-1"
     >
       <a className={`text-blue-600 p-4 hover:rounded hover:bg-blue-200 ${activeItem === "Summary" && "font-bold text-white bg-blue-600 rounded hover:bg-blue-600"}`} onClick={() => handleItemClick("Summary")} href="/summary">Dashboard</a>
-      <a className="text-blue-600 p-4 hover:rounded hover:bg-blue-200" href="/word">Words</a>
+      <a className={`text-blue-600 p-4 hover:rounded hover:bg-blue-200 ${activeItem === "Word" && "font-bold text-white bg-blue-600 rounded hover:bg-blue-600"}`} onClick={() => handleItemClick("Word")} href="/word">Words</a>
       <a className="text-blue-600 p-4 hover:rounded hover:bg-blue-200" href="/earnings">Earnings</a>
       <a className="text-blue-600 p-4 hover:rounded hover:bg-blue-200" href="/history">History</a>
     </nav>
