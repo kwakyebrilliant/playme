@@ -47,9 +47,9 @@ function DashboardNav() {
       className="hidden bg-blue-50 rounded mx-80 items-center justify-center gap-8 text-sm font-medium lg:flex lg:w-0 lg:flex-1"
     >
       <a className={`text-blue-600 p-4 hover:rounded hover:bg-blue-200 ${activeItem === "Summary" && "font-bold text-white bg-blue-600 rounded hover:bg-blue-600"}`} onClick={() => handleItemClick("Summary")} href="/summary">Dashboard</a>
-      <a className="text-blue-600 p-4 hover:rounded hover:bg-blue-200" href="">Words</a>
-      <a className="text-blue-600 p-4 hover:rounded hover:bg-blue-200" href="">Earnings</a>
-      <a className="text-blue-600 p-4 hover:rounded hover:bg-blue-200" href="">History</a>
+      <a className="text-blue-600 p-4 hover:rounded hover:bg-blue-200" href="/word">Words</a>
+      <a className="text-blue-600 p-4 hover:rounded hover:bg-blue-200" href="/earnings">Earnings</a>
+      <a className="text-blue-600 p-4 hover:rounded hover:bg-blue-200" href="/history">History</a>
     </nav>
 
     <div className="hidden items-center gap-4 lg:flex">
@@ -68,9 +68,9 @@ function DashboardNav() {
       className="flex items-center justify-center overflow-x-auto p-4 text-sm font-medium"
     >
       <a className="shrink-0 px-4 text-gray-900" href="/summary">Dashboard</a>
-      <a className="shrink-0 px-4 text-gray-900" href="">Words</a>
-      <a className="shrink-0 px-4 text-gray-900" href="">Earnings</a>
-      <a className="shrink-0 px-4 text-gray-900" href="">History</a>
+      <a className="shrink-0 px-4 text-gray-900" href="/word">Words</a>
+      <a className="shrink-0 px-4 text-gray-900" href="/earnings">Earnings</a>
+      <a className="shrink-0 px-4 text-gray-900" href="/history">History</a>
     </nav>
   </div>
 </header>
