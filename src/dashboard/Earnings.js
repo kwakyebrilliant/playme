@@ -1,6 +1,8 @@
 import React from 'react'
 import DashboardNav from './DashboardNav'
 
+import { FaMoneyCheck } from 'react-icons/fa'
+
 function Earnings() {
   return (
     <div className='bg-gray-100'>
@@ -11,8 +13,7 @@ function Earnings() {
 
       <div className='bg-white border flex justify-between lg:p-4 p-2'>
         <div>
-        <p>Earnings</p>
-        <p>Earnings</p>
+        <FaMoneyCheck className=' text-blue-600 lg:w-[35px] lg:h-[35px]'/>
         </div>
         <div>
         <p className='text-lg'>+ 0.02556988 ETH</p>
