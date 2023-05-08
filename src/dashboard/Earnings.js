@@ -1,7 +1,9 @@
 import React from 'react'
 
-export default function History() {
+function Earnings() {
   return (
     <div>Earnings</div>
   )
 }
+
+export default Earnings

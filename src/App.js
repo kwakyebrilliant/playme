@@ -5,6 +5,7 @@ import Previous from "./components/Previous";
 import Earners from "./components/Earners";
 import Summary from "./dashboard/Summary";
 import Word from './dashboard/Word';
+import Earnings from './dashboard/Earnings';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route path="/earners" exact element={<Earners />} />
       <Route path="/summary" exact element={<Summary />} />
       <Route path="/word" exact element={<Word />} />
+      <Route path="/earnings" exact element={<Earnings />} />
       </Routes>
     </Router>
   );
