@@ -1,8 +1,15 @@
 import React from 'react'
+import DashboardNav from './DashboardNav'
 
 function History() {
   return (
-    <div>History</div>
+    <div className='bg-gray-100'>
+
+        <DashboardNav />
+        
+        History
+
+    </div>
   )
 }
 
