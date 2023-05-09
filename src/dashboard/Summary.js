@@ -2,7 +2,6 @@
 import React from 'react'
 import DashboardNav from './DashboardNav'
 
-import welcome from '../assets/welcome.jpg';
 
 function Summary() {
   return (
@@ -10,12 +9,18 @@ function Summary() {
 
         <DashboardNav />
 
-
-        <div>
-        <a style={{ backgroundImage: `url(${welcome})` }} className="relative block overflow-hidden h-screen rounded-xl bg-cover bg-center bg-no-repeat">
-          
-        </a>
+        <div className="flex justify-center items-center">
+          <div className="text-center">
+            <h1 className="text-4xl font-bold lg:pt-16 pt-8 ">
+              You have a word to share?
+            </h1>
+            <p className='pt-4 text-gray-500'>
+                Think of any english word from the dictionary and put it out there
+            </p>
+          </div>
         </div>
+
+        
     </div>
   )
 }
