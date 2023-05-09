@@ -32,17 +32,20 @@ function Word() {
 
         <div className='lg:pt-8 lg:px-24 p-4'>
 
-        <div className='grid md:grid-cols-2 lg:p-4 p-2'>
+        <div className='grid md:grid-cols-2 gap-x-10 lg:p-4 p-2'>
         
         <div>
-          <p>Hi</p>
+        <a className="block">
+        <img
+          alt="Signage"
+          src="https://images.unsplash.com/photo-1588515724527-074a7a56616c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+          className="h-56 w-full rounded-bl-3xl rounded-tr-3xl object-cover sm:h-64 lg:h-52"
+        />
+        </a>
         </div>
 
         <div>
-            <a
-      className="relative flex items-start justify-between rounded-xl border border-gray-100 p-4 shadow-xl sm:p-6 lg:p-8"
-      href="#"
-    >
+            <a className="relative flex items-start justify-between rounded-xl bg-white border border-gray-100 p-4 shadow-xl sm:p-6 lg:p-8">
       <div className="pt-4 text-gray-500">
         <svg
           className="h-8 w-8 sm:h-10 sm:w-10"
