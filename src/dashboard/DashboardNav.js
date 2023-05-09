@@ -55,7 +55,9 @@ function DashboardNav() {
         <NavLink to="/earnings" className={({ isActive }) => (isActive ? activeLink : normalLink)}>
       <a className=" p-4 hover:rounded hover:bg-blue-200">Earnings</a>
       </NavLink>
-      <a className="p-4 hover:rounded hover:bg-blue-200" href="">History</a>
+      <NavLink to="/history" className={({ isActive }) => (isActive ? activeLink : normalLink)}>
+      <a className="p-4 hover:rounded hover:bg-blue-200">History</a>
+      </NavLink>
     </nav>
 
     <div className="hidden items-center gap-4 lg:flex">
@@ -76,7 +78,7 @@ function DashboardNav() {
       <a className="shrink-0 px-4 text-gray-900" href="/summary">Dashboard</a>
       <a className="shrink-0 px-4 text-gray-900" href="/word">Words</a>
       <a className="shrink-0 px-4 text-gray-900" href="/earnings">Earnings</a>
-      <a className="shrink-0 px-4 text-gray-900" href="">History</a>
+      <a className="shrink-0 px-4 text-gray-900" href="/history">History</a>
     </nav>
   </div>
 </header>
