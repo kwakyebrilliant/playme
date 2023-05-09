@@ -44,9 +44,9 @@ function Word() {
 
           <div className="relative flex items-start justify-between p-4 sm:p-6 lg:p-8">
             <div className="sm:pt-18 pt-12 text-white lg:pt-24">
-              <h3 className="text-xl font-bold sm:text-2xl">$47.41 USD</h3>
+              <h3 className="text-xl font-bold sm:text-2xl">0.02556988 ETH</h3>
 
-              <p className="text-sm">Reward</p>
+              <p className="text-sm">$47.41 USD</p>
             </div>
           </div>
         </a>
