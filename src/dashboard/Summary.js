@@ -28,38 +28,23 @@ function Summary() {
         <div className="flex justify-center items-center">
           <div className='lg:pt-16 pt-8'>
 
-            <a className="group flex flex-col justify-between rounded-sm bg-white p-4 shadow-xl transition-shadow hover:shadow-lg sm:p-6 lg:p-24">
-              <div>
-              <FaPlusCircle className=' text-blue-600 h-12 w-12' />
+            <div className='bg-white rounded-lg shadow-md p-8'>
 
-                <div className="mt-4 border-t-2 border-gray-100 pt-4">
-                  <p className="text-sm font-medium uppercase text-gray-500">
-                    Add a new word
-                  </p>
-                </div>
-              </div>
+            <div className='bg-white rounded-lg border p-8'>
 
-              <div
-                className="mt-8 inline-flex items-center gap-2 text-blue-500 sm:mt-12 lg:mt-16"
-              >
-                <p className="font-medium sm:text-lg">How we did it</p>
+            <div className='bg-white rounded-lg shadow-md p-16'>
 
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 transition-all group-hover:ms-3 rtl:rotate-180"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M17 8l4 4m0 0l-4 4m4-4H3"
-                  />
-                </svg>
-              </div>
-            </a>
+            <FaPlusCircle className=' text-blue-600 h-8 w-8' />
+
+            </div>
+
+            <p className='text-lg pt-4 uppercase font-bold'>
+                Add a new word
+            </p>
+
+            </div>
+
+            </div>
             
           </div>
         </div>
