@@ -32,7 +32,7 @@ function Word() {
 
         <div className='lg:pt-8 lg:px-24 p-4'>
 
-        <div className='w-full pt-20 px-20 bg-white flex flex-col justify-between'>
+        <div className='w-full px-20 flex flex-col justify-between'>
         <div className='grid md:grid-cols-2 max-w-[1240px]'>
             <div className='flex flex-col justify-center md:items-start w-full px-2 py-8'>
                 <h1 className='py-3 text-4xl md:text-6xl font-bold'>Climate <strong className="font-extrabold text-green-600 sm:block">Actions</strong></h1>
@@ -43,7 +43,7 @@ function Word() {
             
             <div className='mx-auto max-w-lg text-center lg:mx-0 lg:text-left'>
                         <a
-              className="relative flex items-start justify-between rounded-xl border border-gray-100 p-4 shadow-xl sm:p-6 lg:p-8"
+              className="relative bg-white flex items-start justify-between rounded-xl border border-gray-100 p-4 shadow-xl sm:p-6 lg:p-8"
               href="#"
             >
               <div className="pt-4 text-gray-500">
