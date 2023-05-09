@@ -1,5 +1,8 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import DashboardNav from './DashboardNav'
+
+import welcome from '../assets/welcome.jpg';
 
 function Summary() {
   return (
@@ -8,7 +11,11 @@ function Summary() {
         <DashboardNav />
 
 
-        <h1>Summary</h1>
+        <div>
+        <a style={{ backgroundImage: `url(${welcome})` }} className="relative block overflow-hidden h-screen rounded-xl bg-cover bg-center bg-no-repeat">
+          
+        </a>
+        </div>
     </div>
   )
 }
