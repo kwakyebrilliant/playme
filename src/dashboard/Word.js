@@ -2,6 +2,8 @@
 import React from 'react'
 import DashboardNav from './DashboardNav'
 
+import trophy from '../assets/trophy.jpg';
+
 
 function Word() {
   return (
@@ -38,7 +40,7 @@ function Word() {
         <a className="block">
         <img
           alt="Signage"
-          src="https://images.unsplash.com/photo-1588515724527-074a7a56616c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+          src={trophy}
           className="h-56 w-full rounded-bl-3xl rounded-tr-3xl object-cover sm:h-64 lg:h-52"
         />
         </a>
