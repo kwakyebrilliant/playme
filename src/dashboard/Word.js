@@ -32,9 +32,15 @@ function Word() {
 
         <div className='lg:pt-8 lg:px-24 p-4'>
 
-        <div className='w-full flex flex-col justify-between'>
+        <div className='flex justify-between lg:p-4 p-2'>
         
+        <div>
+          <p>Hi</p>
+        </div>
 
+        <div>
+          <p>Hi</p>
+        </div>
        
 
         </div> 
