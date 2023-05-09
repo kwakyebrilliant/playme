@@ -49,6 +49,12 @@ function Summary() {
           </div>
         </div>
 
+        <div className="relative">
+        <div className="flex items-center lg:pt-8 lg:px-24 p-4">
+         <p className='text-2xl font-bold'>Words</p>  <div className="w-full border-b border-gray-300"></div>
+        </div>
+        </div>
+
         
     </div>
   )
