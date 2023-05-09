@@ -21,8 +21,13 @@ function Word() {
               </form>
             </div>
         </div>
+
+        <div className='lg:pt-8 lg:px-24 p-4'>
+
+          <h1>Word</h1>
+        
+        </div>
       
-      <h1>Word</h1>
 
     </div>
   )
