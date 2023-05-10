@@ -80,33 +80,7 @@ function Summary() {
                                         />
                                     </div>
 
-                                    <p className='text-md font-medium'>
-                                        Country
-                                         </p>
-
-                                    <div>
-                                        <label className="sr-only" for="country">Country</label>
-                                        <input
-                                        className="w-full rounded-lg text-black border border-gray-300 focus:outline-none focus:ring active:bg-gray-300 p-3 text-sm"
-                                        placeholder="eg. Enter country"
-                                        type="text"
-                                        id="country"
-                                        />
-                                    </div>
-
-                                    <p className='text-md font-medium'>
-                                        Description
-                                    </p>
-
-                                    <div>
-                                        <label className="sr-only" for="description">Description</label>
-                                        <textarea
-                                        className="w-full rounded-lg text-black border border-gray-300 focus:outline-none focus:ring active:bg-gray-300 p-3 text-sm"
-                                        placeholder="eg. give every other details"
-                                        rows="5"
-                                        id="description"
-                                      ></textarea>
-                                    </div>
+                                    
 
                                     <p className='text-md font-medium'>
                                         Target Amount
