@@ -97,7 +97,7 @@ function Summary() {
 
                                  
 
-                                    <a className="group w-full relative inline-flex items-center overflow-hidden rounded bg-green-600 px-8 py-3 text-white focus:outline-none focus:ring active:bg-green-600" href="/">
+                                    <a className="group w-full relative inline-flex items-center overflow-hidden rounded bg-blue-600 px-8 py-3 text-white focus:outline-none focus:ring active:bg-green-600" href="/">
                                         <span className="absolute left-0 -translate-x-full transition-transform group-hover:translate-x-4">
                                             <svg
                                             className="h-5 w-5"
