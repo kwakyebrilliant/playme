@@ -68,7 +68,7 @@ function Word() {
       </div>
 
       <span
-        className="rounded-full bg-blue-100 px-3 py-1.5 text-xs font-medium text-blue-600"
+        className="rounded-full cursor-pointer bg-blue-100 px-3 py-1.5 text-xs font-medium text-blue-600"
       >
         Solve
       </span>
@@ -121,7 +121,7 @@ function Word() {
       </div>
 
       <span
-        className="rounded-full bg-blue-100 px-3 py-1.5 text-xs font-medium text-blue-600"
+        className="rounded-full cursor-pointer bg-blue-100 px-3 py-1.5 text-xs font-medium text-blue-600"
       >
         Solve
       </span>
@@ -168,7 +168,7 @@ function Word() {
       </div>
 
       <span
-        className="rounded-full bg-blue-100 px-3 py-1.5 text-xs font-medium text-blue-600"
+        className="rounded-full cursor-pointer bg-blue-100 px-3 py-1.5 text-xs font-medium text-blue-600"
       >
         Solve
       </span>
@@ -215,7 +215,7 @@ function Word() {
       </div>
 
       <span
-        className="rounded-full bg-blue-100 px-3 py-1.5 text-xs font-medium text-blue-600"
+        className="rounded-full cursor-pointer bg-blue-100 px-3 py-1.5 text-xs font-medium text-blue-600"
       >
         Solve
       </span>
