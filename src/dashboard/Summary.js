@@ -34,7 +34,7 @@ function Summary() {
 
             <div className='bg-white rounded-lg shadow-md p-16'>
 
-            <FaPlusCircle className=' text-blue-600 h-8 w-8' />
+            <FaPlusCircle className=' text-blue-600 cursor-pointer h-8 w-8' />
 
             </div>
 
