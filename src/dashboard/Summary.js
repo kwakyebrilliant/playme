@@ -6,6 +6,9 @@ import { FaPlusCircle } from 'react-icons/fa'
 
 
 function Summary() {
+  
+  const [showModal, setShowModal] = useState(false);
+
   return (
     <div className='bg-gray-100'>
 
