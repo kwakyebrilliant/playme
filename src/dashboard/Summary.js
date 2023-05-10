@@ -67,23 +67,22 @@ function Summary() {
                                         <div className="relative space-y-4 p-6 flex-auto">
                                        
                                         <p className='text-md font-medium'>
-                                        Title
+                                        Word
                                          </p>
 
                                     <div>
-                                        <label className="sr-only" for="title">Title</label>
+                                        <label className="sr-only" for="word">Word</label>
                                         <input
                                         className="w-full rounded-lg  text-black border border-gray-300 focus:outline-none focus:ring active:bg-gray-300 p-3 text-sm"
-                                        placeholder="eg. Enter title"
+                                        placeholder="eg. Enter word"
                                         type="text"
-                                        id="title"
+                                        id="word"
                                         />
                                     </div>
-
-                                    
+             
 
                                     <p className='text-md font-medium'>
-                                        Target Amount
+                                        Reward Amount
                                     </p>
 
                                     <div>
