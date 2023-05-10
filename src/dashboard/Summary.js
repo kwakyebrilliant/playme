@@ -4,6 +4,8 @@ import DashboardNav from './DashboardNav'
 
 import { FaPlusCircle } from 'react-icons/fa'
 
+import welcome2 from '../assets/welcome2.jpg'
+
 
 function Summary() {
 
@@ -14,21 +16,23 @@ function Summary() {
 
         <DashboardNav />
 
+        <div style={{ backgroundImage: `url(${welcome2})` }} className="relative block overflow-hidden rounded-xl bg-cover bg-center bg-no-repeat">
+
         <div className="flex justify-center items-center">
           <div className="text-center">
             <h1 className="text-4xl font-bold lg:pt-16 pt-8 ">
               You have a word to share?
             </h1>
-            <p className='pt-4 text-lg text-gray-500'>
+            <p className='pt-4 text-lg text-gray-700'>
                 Think of any english word from the dictionary and put it out there for someone to solve it.
             </p>
-            <p className='text-lg text-gray-500'>
+            <p className='text-lg text-gray-700'>
                 Specify the reward to be rewarded or reward.
             </p>
           </div>
         </div>
 
-        <div className="flex justify-center items-center">
+        <div className="flex pb-16 justify-center items-center">
           <div className='lg:pt-16 pt-8'>
 
             <div className='bg-white rounded-lg shadow-md p-8'>
@@ -147,6 +151,8 @@ function Summary() {
             </div>
             
           </div>
+        </div>
+
         </div>
 
         <div className="relative">
