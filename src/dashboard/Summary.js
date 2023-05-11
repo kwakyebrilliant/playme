@@ -30,7 +30,7 @@ function Summary() {
                 Specify the reward to be rewarded or reward.
             </p>
           </div>
-        </div>
+        </div> 
 
         <div className="flex pb-16 justify-center items-center">
           <div className='lg:pt-16 pt-8'>
