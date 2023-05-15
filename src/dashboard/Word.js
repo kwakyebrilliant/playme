@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react'
+import React, {useState} from 'react'
 import DashboardNav from './DashboardNav'
 
 import trophy from '../assets/trophy.jpg';
@@ -8,6 +8,15 @@ import { FaRegFileWord } from 'react-icons/fa'
 
 
 function Word() {
+
+  
+  const [isOpen, setIsOpen] = useState(false);
+
+  const togglePopup = () => {
+    setIsOpen(!isOpen);
+  };
+
+
   return (
     <div className='bg-gray-100'>
 
