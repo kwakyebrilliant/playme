@@ -9,7 +9,7 @@ import { FaRegFileWord } from 'react-icons/fa'
 
 function Word() {
 
-  
+
   const [isOpen, setIsOpen] = useState(false);
 
   const togglePopup = () => {
@@ -78,11 +78,27 @@ function Word() {
 
       <span
         className="rounded-full cursor-pointer bg-blue-100 px-3 py-1.5 text-xs font-medium text-blue-600"
+        onClick={togglePopup}
       >
         Solve
       </span>
     </a>
         </div>
+
+        {isOpen && (
+        <div className="fixed inset-0 flex items-center justify-center z-50">
+          <div className="bg-white w-1/2 rounded-lg shadow-lg p-6">
+            <h2 className="text-lg font-semibold mb-4">Popup Content</h2>
+            <p>This is the content of the popup.</p>
+            <button
+              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4"
+              onClick={togglePopup}
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      )}
        
 
         </div> 
