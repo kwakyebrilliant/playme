@@ -67,7 +67,7 @@ function Word() {
       <FaRegFileWord className=' text-gray-500 lg:w-8 lg:h-8 sm:h-10 sm:w-10'/>
 
         <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
-          C__mis__y
+          C_ _mis_ _y
         </h3>
 
         <p className="mt-2 hidden text-sm sm:block">
@@ -89,7 +89,7 @@ function Word() {
         <div className="fixed inset-0 flex items-center justify-center z-50">
           <div className="bg-white w-1/2 rounded-lg shadow-lg p-6">
             <h2 className="text-lg font-semibold mb-4">
-            C__mis__y
+            C_ _mis_ _y
             </h2>
             <div className="relative">
 
