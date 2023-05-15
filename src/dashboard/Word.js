@@ -143,12 +143,23 @@ function Word() {
           <div className="w-full border-b border-gray-300"></div>
           </div>
         </div>
+        <div className='flex justify-center'>
+        <a
+                    className=" justify-center mr-4 flex rounded-lg bg-emerald-600 py-2 px-4 mt-4 text-sm font-medium hover:bg-transparent border border-emerald-600 hover:text-emerald-600 text-white"
+                    type="submit"
+                    href='#'
+                    >
+                    <span className="text-sm font-medium">
+                    submit
+                    </span>
+                    </a>
             <button
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4"
+              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg mt-4"
               onClick={togglePopup}
             >
               Close
             </button>
+            </div>
           </div>
         </div>
       )}
