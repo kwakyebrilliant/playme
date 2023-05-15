@@ -109,7 +109,7 @@ function Word() {
 
         {isOpen && (
         <div className="fixed inset-0 flex items-center justify-center z-50">
-          <div className="bg-white w-1/2 rounded-lg shadow-lg p-6">
+          <div className="bg-white lg:w-1/2 md:w-full sm:w-full rounded-lg shadow-lg p-6">
 
             <div className='flex justify-between'>
             <h2 className="text-lg text-white bg-emerald-600 rounded-lg p-2 font-semibold mb-4">
@@ -130,7 +130,14 @@ function Word() {
 
         </div>
         <div>
-            <p>This is the content of the popup.</p>
+
+        <div className="relative pr-6">
+          <input
+              type="text"
+              className="w-full rounded-lg bg-blue-50 border-gray-200 p-4 pe-12 text-sm shadow-sm"
+              placeholder="text"
+          />
+          </div>
 
             <div className="flex items-center py-2">
           <div className="w-full border-b border-gray-300"></div>
