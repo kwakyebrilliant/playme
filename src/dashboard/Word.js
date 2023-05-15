@@ -131,7 +131,7 @@ function Word() {
         </div>
         <div>
 
-        <div className="relative pr-6">
+        <div className="relative py-4">
           <input
               type="text"
               className="w-full rounded-lg bg-blue-50 border-gray-200 p-4 pe-12 text-sm shadow-sm"
