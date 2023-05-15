@@ -93,10 +93,10 @@ function Word() {
             </h2>
             <div className="relative">
 
-          <div className="flex items-center lg:pt-8 lg:px-24 p-4">
+          <div className="flex items-center py-2">
           <div className="w-full border-b border-gray-300"></div>
           </div>
-          
+
         </div>
             <p>This is the content of the popup.</p>
             <button
