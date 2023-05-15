@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import DashboardNav from './DashboardNav'
 
 import trophy from '../assets/trophy.jpg';
@@ -14,6 +14,28 @@ function Word() {
 
   const togglePopup = () => {
     setIsOpen(!isOpen);
+  };
+
+  const [seconds, setSeconds] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setSeconds((prevSeconds) => prevSeconds + 1);
+    }, 1000);
+
+    return () => {
+      clearInterval(timer);
+    };
+  }, []);
+
+  const formatTime = (totalSeconds) => {
+    const hours = Math.floor(totalSeconds / 3600);
+    const minutes = Math.floor((totalSeconds % 3600) / 60);
+    const remainingSeconds = totalSeconds % 60;
+
+    return `${hours.toString().padStart(2, "0")}:${minutes
+      .toString()
+      .padStart(2, "0")}:${remainingSeconds.toString().padStart(2, "0")}`;
   };
 
 
@@ -88,9 +110,18 @@ function Word() {
         {isOpen && (
         <div className="fixed inset-0 flex items-center justify-center z-50">
           <div className="bg-white w-1/2 rounded-lg shadow-lg p-6">
-            <h2 className="text-lg font-semibold mb-4">
+
+            <div className='flex justify-between'>
+            <h2 className="text-lg text-white bg-emerald-600 rounded-lg p-2 font-semibold mb-4">
             C_ _mis_ _y
             </h2>
+
+            <h2 className="text-lg text-white bg-blue-600 shadow-md rounded-lg p-2 font-semibold mb-4">
+            {formatTime(seconds)}
+            </h2>
+
+            </div>
+
             <div className="relative">
 
           <div className="flex items-center py-2">
