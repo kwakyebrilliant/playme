@@ -91,6 +91,13 @@ function Word() {
             <h2 className="text-lg font-semibold mb-4">
             C__mis__y
             </h2>
+            <div className="relative">
+
+          <div className="flex items-center lg:pt-8 lg:px-24 p-4">
+          <div className="w-full border-b border-gray-300"></div>
+          </div>
+          
+        </div>
             <p>This is the content of the popup.</p>
             <button
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4"
