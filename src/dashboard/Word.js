@@ -149,7 +149,7 @@ function Word() {
                     type="submit"
                     href='#'
                     >
-                    <span className="text-sm font-bold">
+                    <span className="text-sm font-bold"> 
                     Submit
                     </span>
                     </a>
