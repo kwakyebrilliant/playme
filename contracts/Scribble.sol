@@ -22,5 +22,17 @@ contract WordScribble {
         priceFeed = AggregatorV3Interface(_priceFeedAddress);
     }
 
+     function addWord(string memory _word, uint256 _reward) public {
+        words.push(Word({
+            word: _word,
+            creator: msg.sender,
+            solver: address(0),
+            reward: _reward,
+            solved: false,
+            solveTime: 0,
+            refundClaimed: false
+        }));
+    }
+
 
 }
