@@ -18,5 +18,9 @@ contract WordScribble {
         mapping(address => uint256) public balances;
         AggregatorV3Interface internal priceFeed;
 
+        constructor(address _priceFeedAddress) {
+        priceFeed = AggregatorV3Interface(_priceFeedAddress);
+    }
+
 
 }
