@@ -14,6 +14,9 @@ contract WordScribble {
         bool refundClaimed;
     }
 
+    Word[] public words;
+        mapping(address => uint256) public balances;
+        AggregatorV3Interface internal priceFeed;
 
 
 }
