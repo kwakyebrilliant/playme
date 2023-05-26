@@ -50,7 +50,9 @@ contract WordScribble {
     }
 
 
-        function submitSolution(uint256 _wordIndex, string memory _solution) public {
+
+    // submit a word
+     function submitSolution(uint256 _wordIndex, string memory _solution) public {
         Word storage word = words[_wordIndex];
         require(!word.solved, "Word has already been solved");
         require(word.solveTime != 0 && block.timestamp <= word.solveTime, "Time limit for solving the word has expired");
@@ -62,6 +64,10 @@ contract WordScribble {
             balances[msg.sender] += word.reward;
         }
     }
+
+
+
+
 
 
 }
