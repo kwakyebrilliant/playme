@@ -34,5 +34,15 @@ contract WordScribble {
         }));
     }
 
+    function solveWord(uint256 _wordIndex) public payable {
+        Word storage word = words[_wordIndex];
+        require(!word.solved, "Word has already been solved");
+        require(msg.value == word.reward, "Incorrect reward amount");
+        require(word.solveTime == 0, "Another user is already solving this word");
+
+        word.solveTime = block.timestamp + 30; // Set 30-second time limit for solving the word
+        balances[msg.sender] += msg.value;
+    }
+
 
 }
