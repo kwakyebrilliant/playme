@@ -22,6 +22,8 @@ contract WordScribble {
         priceFeed = AggregatorV3Interface(_priceFeedAddress);
     }
 
+
+    // Add a word
      function addWord(string memory _word, uint256 _reward) public {
         words.push(Word({
             word: _word,
@@ -34,7 +36,7 @@ contract WordScribble {
         }));
     }
 
-    
+
 
     function solveWord(uint256 _wordIndex) public payable {
         Word storage word = words[_wordIndex];
