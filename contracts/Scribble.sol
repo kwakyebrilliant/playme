@@ -34,6 +34,8 @@ contract WordScribble {
         }));
     }
 
+    
+
     function solveWord(uint256 _wordIndex) public payable {
         Word storage word = words[_wordIndex];
         require(!word.solved, "Word has already been solved");
@@ -42,6 +44,20 @@ contract WordScribble {
 
         word.solveTime = block.timestamp + 30; // Set 30-second time limit for solving the word
         balances[msg.sender] += msg.value;
+    }
+
+
+        function submitSolution(uint256 _wordIndex, string memory _solution) public {
+        Word storage word = words[_wordIndex];
+        require(!word.solved, "Word has already been solved");
+        require(word.solveTime != 0 && block.timestamp <= word.solveTime, "Time limit for solving the word has expired");
+        require(word.solver == address(0), "Another user has already solved this word");
+
+        if (keccak256(bytes(_solution)) == keccak256(bytes(word.word))) {
+            word.solver = msg.sender;
+            word.solved = true;
+            balances[msg.sender] += word.reward;
+        }
     }
 
 
