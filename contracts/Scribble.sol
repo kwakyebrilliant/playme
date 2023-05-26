@@ -38,6 +38,7 @@ contract WordScribble {
 
 
 
+    // solve a word
     function solveWord(uint256 _wordIndex) public payable {
         Word storage word = words[_wordIndex];
         require(!word.solved, "Word has already been solved");
