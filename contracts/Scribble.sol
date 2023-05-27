@@ -67,6 +67,18 @@ contract WordScribble {
 
 
 
+    function claimFailedWord(uint256 _wordIndex) public {
+            Word storage word = words[_wordIndex];
+            require(!word.solved, "Word has already been solved");
+            require(msg.sender == word.creator, "Only the word creator can claim the failed word");
+            require(word.solveTime != 0 && block.timestamp > word.solveTime, "Time limit for solving the word has not expired yet");
+            require(!word.refundClaimed, "Refund has already been claimed for this word");
+
+            word.solveTime = 0;
+            word.refundClaimed = true;
+            balances[msg.sender] += word.reward;
+        }
+
 
 
 
