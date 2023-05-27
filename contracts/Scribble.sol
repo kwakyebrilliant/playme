@@ -81,6 +81,7 @@ contract WordScribble {
         }
 
 
+    //withdraw funds
     function withdraw() public {
         uint256 balance = balances[msg.sender];
         require(balance > 0, "No balance to withdraw");
