@@ -67,6 +67,7 @@ contract WordScribble {
 
 
 
+    //Claim reward
     function claimFailedWord(uint256 _wordIndex) public {
             Word storage word = words[_wordIndex];
             require(!word.solved, "Word has already been solved");
