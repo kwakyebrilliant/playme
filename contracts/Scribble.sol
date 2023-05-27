@@ -81,6 +81,14 @@ contract WordScribble {
         }
 
 
+    function withdraw() public {
+        uint256 balance = balances[msg.sender];
+        require(balance > 0, "No balance to withdraw");
+        balances[msg.sender] = 0;
+        payable(msg.sender).transfer(balance);
+    }
+
+
 
 
 }
