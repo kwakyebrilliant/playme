@@ -23,7 +23,7 @@ function Word() {
       setSeconds((prevSeconds) => prevSeconds + 1);
     }, 1000);
 
-    if (seconds === 30) {
+    if (seconds >= 30) {
       clearInterval(timer);
     }
 
@@ -31,7 +31,6 @@ function Word() {
       clearInterval(timer);
     };
   }, [seconds]);
-
 
   return (
     <div className='bg-gray-100'>
