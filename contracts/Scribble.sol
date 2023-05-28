@@ -90,7 +90,7 @@ contract WordScribble {
     }
 
 
-    
+    //Price feed    
     function getLatestPrice() public view returns (int) {
         (
             uint80 roundID, 
