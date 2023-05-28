@@ -23,20 +23,14 @@ function Word() {
       setSeconds((prevSeconds) => prevSeconds + 1);
     }, 1000);
 
+    if (seconds === 30) {
+      clearInterval(timer);
+    }
+
     return () => {
       clearInterval(timer);
     };
-  }, []);
-
-  const formatTime = (totalSeconds) => {
-    const hours = Math.floor(totalSeconds / 3600);
-    const minutes = Math.floor((totalSeconds % 3600) / 60);
-    const remainingSeconds = totalSeconds % 60;
-
-    return `${hours.toString().padStart(2, "0")}:${minutes
-      .toString()
-      .padStart(2, "0")}:${remainingSeconds.toString().padStart(2, "0")}`;
-  };
+  }, [seconds]);
 
 
   return (
@@ -117,7 +111,7 @@ function Word() {
             </h2>
 
             <h2 className="text-lg text-white bg-blue-600 shadow-md rounded-lg p-2 font-semibold mb-4">
-            {formatTime(seconds)}
+            {seconds}s
             </h2>
 
             </div>
