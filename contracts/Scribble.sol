@@ -38,6 +38,17 @@ contract WordScribble {
 
 
 
+    function getAllWords() public view returns (string[] memory) {
+        string[] memory allWords = new string[](words.length);
+
+        for (uint256 i = 0; i < words.length; i++) {
+            allWords[i] = words[i].word;
+        }
+
+        return allWords;
+    }
+
+
     // solve a word
     function solveWord(uint256 _wordIndex) public payable {
         Word storage word = words[_wordIndex];
