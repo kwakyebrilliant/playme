@@ -24,7 +24,7 @@ contract WordScribble {
 
 
     // Add a word
-     function addWord(string memory _word, uint256 _reward) public {
+    function addWord(string memory _word, uint256 _reward) public {
         words.push(Word({
             word: _word,
             creator: msg.sender,
@@ -63,7 +63,7 @@ contract WordScribble {
 
 
     // submit a word
-     function submitSolution(uint256 _wordIndex, string memory _solution) public {
+    function submitSolution(uint256 _wordIndex, string memory _solution) public {
         Word storage word = words[_wordIndex];
         require(!word.solved, "Word has already been solved");
         require(word.solveTime != 0 && block.timestamp <= word.solveTime, "Time limit for solving the word has expired");
@@ -112,7 +112,6 @@ contract WordScribble {
         ) = priceFeed.latestRoundData();
         return price;
     }
-
 
 
     //gets all words created by a user
