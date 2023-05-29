@@ -37,7 +37,7 @@ contract WordScribble {
     }
 
 
-
+    //gets all words to be solved
     function getAllWords() public view returns (string[] memory) {
         string[] memory allWords = new string[](words.length);
 
