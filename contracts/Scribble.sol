@@ -155,6 +155,7 @@ contract WordScribble {
     }
 
 
+    //gets a user's earnings
     function getUserEarnings(address user) public view returns (uint256) {
     uint256 earnings = 0;
 
