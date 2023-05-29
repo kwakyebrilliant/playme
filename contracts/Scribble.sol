@@ -104,31 +104,55 @@ contract WordScribble {
 
 
 
-    //gets top earners
-    function getTopEarners(uint256 count) public view returns (address[] memory) {
-    require(count > 0 && count <= words.length, "Invalid count");
+        //gets top earners
+        function getTopEarners(uint256 count) public view returns (address[] memory) {
+        require(count > 0 && count <= words.length, "Invalid count");
 
-    address[] memory earners = new address[](count);
-    uint256[] memory earnings = new uint256[](count);
+        address[] memory earners = new address[](count);
+        uint256[] memory earnings = new uint256[](count);
 
-    for (uint256 i = 0; i < words.length; i++) {
-        if (words[i].solver != address(0) && words[i].solved) {
-            for (uint256 j = 0; j < count; j++) {
-                if (words[i].reward > earnings[j]) {
-                    for (uint256 k = count - 1; k > j; k--) {
-                        earners[k] = earners[k - 1];
-                        earnings[k] = earnings[k - 1];
+        for (uint256 i = 0; i < words.length; i++) {
+            if (words[i].solver != address(0) && words[i].solved) {
+                for (uint256 j = 0; j < count; j++) {
+                    if (words[i].reward > earnings[j]) {
+                        for (uint256 k = count - 1; k > j; k--) {
+                            earners[k] = earners[k - 1];
+                            earnings[k] = earnings[k - 1];
+                        }
+                        earners[j] = words[i].solver;
+                        earnings[j] = words[i].reward;
+                        break;
                     }
-                    earners[j] = words[i].solver;
-                    earnings[j] = words[i].reward;
-                    break;
                 }
             }
         }
+
+        return earners;
     }
 
-    return earners;
-}
+
+
+    
+    function getUserWordHistory(address user) public view returns (string[] memory) {
+        uint256 wordCount = 0;
+        for (uint256 i = 0; i < words.length; i++) {
+            if (words[i].creator == user || words[i].solver == user) {
+                wordCount++;
+            }
+        }
+
+        string[] memory wordHistory = new string[](wordCount);
+        uint256 currentIndex = 0;
+
+        for (uint256 i = 0; i < words.length; i++) {
+            if (words[i].creator == user || words[i].solver == user) {
+                wordHistory[currentIndex] = words[i].word;
+                currentIndex++;
+            }
+        }
+
+        return wordHistory;
+    }
 
 
 }
