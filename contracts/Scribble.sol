@@ -132,7 +132,7 @@ contract WordScribble {
 
 
 
-    
+    //history of words attempted or created
     function getUserWordHistory(address user) public view returns (string[] memory) {
         uint256 wordCount = 0;
         for (uint256 i = 0; i < words.length; i++) {
