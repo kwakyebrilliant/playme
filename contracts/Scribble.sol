@@ -115,6 +115,29 @@ contract WordScribble {
 
 
 
+
+    function getUserCreatedWords(address user) public view returns (string[] memory) {
+        uint256 wordCount = 0;
+        for (uint256 i = 0; i < words.length; i++) {
+            if (words[i].creator == user) {
+                wordCount++;
+            }
+        }
+
+        string[] memory createdWords = new string[](wordCount);
+        uint256 currentIndex = 0;
+
+        for (uint256 i = 0; i < words.length; i++) {
+            if (words[i].creator == user) {
+                createdWords[currentIndex] = words[i].word;
+                currentIndex++;
+            }
+        }
+
+        return createdWords;
+    }
+
+
         //gets top earners
         function getTopEarners(uint256 count) public view returns (address[] memory) {
         require(count > 0 && count <= words.length, "Invalid count");
