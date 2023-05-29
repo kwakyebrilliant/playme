@@ -115,7 +115,7 @@ contract WordScribble {
 
 
 
-
+    //gets all words created by a user
     function getUserCreatedWords(address user) public view returns (string[] memory) {
         uint256 wordCount = 0;
         for (uint256 i = 0; i < words.length; i++) {
