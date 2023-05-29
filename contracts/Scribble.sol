@@ -80,16 +80,16 @@ contract WordScribble {
 
     //Claim reward
     function claimFailedWord(uint256 _wordIndex) public {
-            Word storage word = words[_wordIndex];
-            require(!word.solved, "Word has already been solved");
-            require(msg.sender == word.creator, "Only the word creator can claim the failed word");
-            require(word.solveTime != 0 && block.timestamp > word.solveTime, "Time limit for solving the word has not expired yet");
-            require(!word.refundClaimed, "Refund has already been claimed for this word");
+        Word storage word = words[_wordIndex];
+        require(!word.solved, "Word has already been solved");
+        require(msg.sender == word.creator, "Only the word creator can claim the failed word");
+        require(word.solveTime != 0 && block.timestamp > word.solveTime, "Time limit for solving the word has not expired yet");
+        require(!word.refundClaimed, "Refund has already been claimed for this word");
 
-            word.solveTime = 0;
-            word.refundClaimed = true;
-            balances[msg.sender] += word.reward;
-        }
+        word.solveTime = 0;
+        word.refundClaimed = true;
+        balances[msg.sender] += word.reward;
+    }
 
 
     //withdraw funds
@@ -137,8 +137,8 @@ contract WordScribble {
     }
 
 
-        //gets top earners
-        function getTopEarners(uint256 count) public view returns (address[] memory) {
+     //gets top earners
+     function getTopEarners(uint256 count) public view returns (address[] memory) {
         require(count > 0 && count <= words.length, "Invalid count");
 
         address[] memory earners = new address[](count);
