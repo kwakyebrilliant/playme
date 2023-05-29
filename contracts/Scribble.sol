@@ -155,4 +155,17 @@ contract WordScribble {
     }
 
 
+    function getUserEarnings(address user) public view returns (uint256) {
+    uint256 earnings = 0;
+
+    for (uint256 i = 0; i < words.length; i++) {
+        if (words[i].solver == user && words[i].solved) {
+            earnings += words[i].reward;
+        }
+    }
+
+    return earnings;
+}
+
+
 }
