@@ -104,30 +104,31 @@ contract WordScribble {
 
 
 
-        function getTopEarners(uint256 count) public view returns (address[] memory) {
-        require(count > 0 && count <= words.length, "Invalid count");
+    //gets top earners
+    function getTopEarners(uint256 count) public view returns (address[] memory) {
+    require(count > 0 && count <= words.length, "Invalid count");
 
-        address[] memory earners = new address[](count);
-        uint256[] memory earnings = new uint256[](count);
+    address[] memory earners = new address[](count);
+    uint256[] memory earnings = new uint256[](count);
 
-        for (uint256 i = 0; i < words.length; i++) {
-            if (words[i].solver != address(0) && words[i].solved) {
-                for (uint256 j = 0; j < count; j++) {
-                    if (words[i].reward > earnings[j]) {
-                        for (uint256 k = count - 1; k > j; k--) {
-                            earners[k] = earners[k - 1];
-                            earnings[k] = earnings[k - 1];
-                        }
-                        earners[j] = words[i].solver;
-                        earnings[j] = words[i].reward;
-                        break;
+    for (uint256 i = 0; i < words.length; i++) {
+        if (words[i].solver != address(0) && words[i].solved) {
+            for (uint256 j = 0; j < count; j++) {
+                if (words[i].reward > earnings[j]) {
+                    for (uint256 k = count - 1; k > j; k--) {
+                        earners[k] = earners[k - 1];
+                        earnings[k] = earnings[k - 1];
                     }
+                    earners[j] = words[i].solver;
+                    earnings[j] = words[i].reward;
+                    break;
                 }
             }
         }
-
-        return earners;
     }
+
+    return earners;
+}
 
 
 }
